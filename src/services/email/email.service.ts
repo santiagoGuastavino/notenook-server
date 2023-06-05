@@ -67,7 +67,7 @@ export class EmailService {
     });
 
     const mailOptions = {
-      from: `Selfieboost<${process.env.MAIL_FROM}>`,
+      from: `Notenook<${process.env.MAIL_FROM}>`,
       to: this.recipient.toLowerCase(),
       subject: this.emailData.subject,
       html: compiledTemplate(this.emailData),
