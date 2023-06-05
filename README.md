@@ -1,4 +1,4 @@
-[Notenook](deploy.com)
+Notenook
 ---
 
 **notenook** is a note management application.  
